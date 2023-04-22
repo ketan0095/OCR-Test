@@ -242,7 +242,7 @@ export default function Home() {
         {ocrresult.length > 0
           ? ocrresult.map((item, index) => {
               return (
-                <div class="row w-100 border p-3">
+                <div class="row w-100 border p-3" key={item}>
                   <div class="col-lg-1 col-md-1 col-sm-2">
                     {/* <h1>test</h1> */}
                   </div>
