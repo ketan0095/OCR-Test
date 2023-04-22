@@ -112,4 +112,5 @@ def generate_result():
 
 
 if "__main__" == __name__:
-    app.run(host="0.0.0.0", port=3636, debug=True)
+    # app.run(host="0.0.0.0", port=3636, debug=True)
+    app.run(host="0.0.0.0", port=3636)
